@@ -1,0 +1,115 @@
+body{
+    padding: 30px 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-image-div{
+    margin: 30px;
+}
+
+.image-div{
+    max-width: 100%;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.form-container{
+    display: grid;
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.form-container-item{
+    padding: 10px 20px;
+    border-radius: 25px;
+    outline: none;
+}
+
+input{
+    border: 1px solid hsl(223, 100%, 88%);
+}
+
+button{
+    background-color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 87%, 63%);
+    color: white;
+}
+
+::placeholder{
+    color: hsl(0, 0%, 59%);
+}
+
+.illustration-image-div{
+    margin: 40px 0px;
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: hsl(223, 87%, 63%);
+}
+
+.social-media-links-item{
+    border: 1px solid hsl(0, 0%, 59%);
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+.faded-grey{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+
+.trademark{
+    font-size: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 600px) {
+    .container{
+        width: 40%;
+        margin: auto;
+    }
+
+    .logo-image-div{
+        margin: unset;
+    }
+
+    .form-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    input{
+        width: 60%;
+    }
+    
+    button{
+        width: 40%;
+    }
+}
